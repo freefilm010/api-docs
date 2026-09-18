@@ -822,6 +822,36 @@
       "retrievedAt": "2026-09-18",
       "notes": "",
       "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "esri_world_imagery",
+      "title": "World Imagery",
+      "organization": "Esri",
+      "type": "geospatial imagery service",
+      "url": "https://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9",
+      "evidence": "GEOSPATIAL BASEMAP",
+      "covers": [
+        "Earth satellite/aerial imagery",
+        "global basemap"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "Tiled Earth imagery layer; credits remain visible in Cesium.",
+      "licenseNote": "Subject to Esri service terms and attribution."
+    },
+    {
+      "id": "esri_world_elevation",
+      "title": "WorldElevation3D / Terrain3D",
+      "organization": "Esri",
+      "type": "geospatial elevation service",
+      "url": "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer",
+      "evidence": "TERRAIN DATA SERVICE",
+      "covers": [
+        "Earth elevation",
+        "3D terrain geometry"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "Used when service access is available; WGS84 ellipsoid is the fallback.",
+      "licenseNote": "Subject to Esri service terms/access requirements."
     }
   ]
 }
