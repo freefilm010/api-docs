@@ -1,5 +1,5 @@
-const CACHE='pfl-web-v6-7-friendly-login-20260918';
-const CORE=['./','./index.html','./config.js','./styles.css','./app.js','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png','./data/source_registry.json','./data/content_source_map.json','./docs/methodology.html','./legal/terms.html','./legal/privacy.html','./legal/community.html','./legal/cookies.html','./legal/simulation-disclaimer.html'];
+const CACHE='pfl-web-v6-9-geospatial-earth-20260918';
+const CORE=['./','./index.html','./config.js','./styles.css','./app.js','./manifest.webmanifest','./assets/icon-192.png','./assets/icon-512.png','./data/source_registry.json','./data/content_source_map.json','./docs/methodology.html','./legal/terms.html','./legal/privacy.html','./legal/community.html','./legal/cookies.html','./legal/simulation-disclaimer.html','./earth3d-v69.js','./earth3d-v69.css'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 async function networkFirst(req,fallback){try{const r=await fetch(req);if(r.ok){const c=await caches.open(CACHE);await c.put(req,r.clone())}return r}catch{return(await caches.match(req))||(fallback?await caches.match(fallback):null)||new Response('Offline',{status:503,headers:{'Content-Type':'text/plain'}})}}
