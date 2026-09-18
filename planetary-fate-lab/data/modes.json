@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "modes": [
+    {
+      "id": "solo",
+      "name": "Solo Expedition",
+      "players": "1"
+    },
+    {
+      "id": "story",
+      "name": "Story Campaign",
+      "players": "1"
+    },
+    {
+      "id": "sandbox",
+      "name": "Sandbox Lab",
+      "players": "1"
+    },
+    {
+      "id": "academy",
+      "name": "Academy",
+      "players": "1 or class"
+    },
+    {
+      "id": "defense",
+      "name": "Planetary Defense",
+      "players": "1-6"
+    },
+    {
+      "id": "multiplayer",
+      "name": "Multiplayer / Co-op",
+      "players": "2-6"
+    },
+    {
+      "id": "director",
+      "name": "Director / Spectator",
+      "players": "1 host + viewers"
+    },
+    {
+      "id": "seasonal",
+      "name": "Seasonal & Live Events",
+      "players": "1-6"
+    }
+  ]
+}

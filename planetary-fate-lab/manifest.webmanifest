@@ -1,21 +1,48 @@
 {
-  "id":"./",
-  "name":"Planetary Fate Lab — Solar System Edition",
-  "short_name":"Fate Lab",
-  "description":"Interactive planetary science, disasters, recovery, forces and live space data.",
-  "start_url":"./",
-  "scope":"./",
-  "display":"standalone",
-  "orientation":"any",
-  "background_color":"#03070d",
-  "theme_color":"#06101b",
-  "categories":["education","games","science"],
-  "icons":[
-    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
-    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  "id": "./",
+  "name": "Planetary Fate Lab — Solar System Edition",
+  "short_name": "Fate Lab",
+  "description": "Interactive planetary science with solo, story, sandbox, academy, defense, multiplayer/co-op, director and seasonal modes.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#03070d",
+  "theme_color": "#06101b",
+  "categories": [
+    "education",
+    "games",
+    "science"
   ],
-  "shortcuts":[
-    {"name":"Scenarios","short_name":"Scenarios","url":"./#scenarios"},
-    {"name":"Forces Lab","short_name":"Forces","url":"./#lab"}
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Modes",
+      "short_name": "Modes",
+      "url": "./#explore"
+    },
+    {
+      "name": "Scenarios",
+      "short_name": "Scenarios",
+      "url": "./#scenarios"
+    },
+    {
+      "name": "Forces Lab",
+      "short_name": "Lab",
+      "url": "./#lab"
+    }
   ]
 }

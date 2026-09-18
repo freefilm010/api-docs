@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "truthLabelsRequired": true,
+  "textures": [
+    {
+      "body": "Mercury",
+      "classification": "OBSERVATIONAL MOSAIC",
+      "source": "NASA MESSENGER / USGS"
+    },
+    {
+      "body": "Venus",
+      "classification": "RADAR SURFACE MAP",
+      "source": "Magellan / JPL-Caltech"
+    },
+    {
+      "body": "Earth",
+      "classification": "OBSERVATION-DERIVED",
+      "source": "NASA Blue Marble"
+    },
+    {
+      "body": "Mars",
+      "classification": "OBSERVATIONAL MOSAIC",
+      "source": "Viking / USGS / JPL-Caltech"
+    },
+    {
+      "body": "Jupiter",
+      "classification": "VOYAGER-DERIVED",
+      "source": "Voyager / JPL-Caltech"
+    },
+    {
+      "body": "Saturn",
+      "classification": "REPRESENTATIVE",
+      "source": "JPL-Caltech legacy texture"
+    },
+    {
+      "body": "Uranus",
+      "classification": "REPRESENTATIVE COLOR",
+      "source": "Voyager-informed / JPL-Caltech"
+    },
+    {
+      "body": "Neptune",
+      "classification": "REPRESENTATIVE",
+      "source": "Voyager-informed / JPL-Caltech"
+    }
+  ]
+}
