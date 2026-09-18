@@ -1,14 +1,19 @@
 {
   "id": "./",
-  "name": "Planetary Fate Lab — Solar System Edition",
+  "name": "Planetary Fate Lab \u2014 Solar System Edition",
   "short_name": "Fate Lab",
-  "description": "Interactive planetary science with cycles, real missions, solo/story/sandbox/academy/defense, multiplayer/co-op, Restorers vs Disruptors, director, seasonal events and educational mini-games.",
+  "description": "Planetary Fate Lab v6.1: interactive planetary science, missions, cycles, crew, search and rescue, colonization, multiplayer strategy, educational mini-games and clearly labeled speculative frontier concepts.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "any",
   "background_color": "#03070d",
-  "theme_color": "#06101b",
+  "theme_color": "#07111f",
   "categories": [
     "education",
     "games",
@@ -25,7 +30,13 @@
       "src": "./assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "shortcuts": [

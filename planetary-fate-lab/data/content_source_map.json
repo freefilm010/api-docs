@@ -1,0 +1,606 @@
+{
+  "schemaVersion": 1,
+  "registry": "source_registry.json",
+  "namespaces": {
+    "bodies": {
+      "mercury": [
+        "nasa_solar_system",
+        "usgs_planetary_maps"
+      ],
+      "venus": [
+        "nasa_solar_system",
+        "usgs_planetary_maps"
+      ],
+      "earth": [
+        "nasa_solar_system",
+        "nasa_blue_marble"
+      ],
+      "mars": [
+        "nasa_solar_system",
+        "usgs_planetary_maps"
+      ],
+      "jupiter": [
+        "nasa_solar_system",
+        "nasa_juno"
+      ],
+      "saturn": [
+        "nasa_solar_system"
+      ],
+      "uranus": [
+        "nasa_solar_system"
+      ],
+      "neptune": [
+        "nasa_solar_system"
+      ],
+      "ceres": [
+        "nasa_solar_system",
+        "usgs_planetary_maps"
+      ],
+      "pluto": [
+        "nasa_solar_system",
+        "usgs_planetary_maps"
+      ],
+      "haumea": [
+        "nasa_solar_system"
+      ],
+      "makemake": [
+        "nasa_solar_system"
+      ],
+      "eris": [
+        "nasa_solar_system"
+      ]
+    },
+    "textures": {
+      "Mercury": [
+        "usgs_planetary_maps",
+        "nasa_media_guidelines"
+      ],
+      "Venus": [
+        "usgs_planetary_maps",
+        "nasa_media_guidelines"
+      ],
+      "Earth": [
+        "nasa_blue_marble",
+        "nasa_media_guidelines"
+      ],
+      "Mars": [
+        "usgs_planetary_maps",
+        "nasa_media_guidelines"
+      ],
+      "Jupiter": [
+        "nasa_juno",
+        "nasa_media_guidelines"
+      ],
+      "Saturn": [
+        "nasa_solar_system",
+        "nasa_media_guidelines"
+      ],
+      "Uranus": [
+        "nasa_solar_system",
+        "nasa_media_guidelines"
+      ],
+      "Neptune": [
+        "nasa_solar_system",
+        "nasa_media_guidelines"
+      ]
+    },
+    "cycles": {
+      "solar_activity_11y": [
+        "nasa_solar_cycle"
+      ],
+      "hale_22y": [
+        "nasa_solar_cycle"
+      ],
+      "solar_rotation": [
+        "nasa_solar_cycle"
+      ],
+      "planetary_seasons": [
+        "nasa_solar_system"
+      ],
+      "earth_eccentricity": [
+        "nasa_milankovitch"
+      ],
+      "earth_obliquity": [
+        "nasa_milankovitch"
+      ],
+      "earth_precession": [
+        "nasa_milankovitch"
+      ],
+      "lunar_phases": [
+        "nasa_eclipse"
+      ],
+      "saros": [
+        "nasa_eclipse"
+      ],
+      "annual_meteor_streams": [
+        "nasa_solar_system"
+      ],
+      "geomagnetic_reversals": [
+        "nasa_solar_system"
+      ],
+      "supercontinent": [
+        "nature_supercontinent"
+      ],
+      "water": [
+        "nasa_solar_system"
+      ],
+      "carbon": [
+        "nasa_solar_system"
+      ],
+      "rock": [
+        "usgs_planetary_mapping"
+      ],
+      "leo_period": [
+        "nasa_glenn_ballistics"
+      ],
+      "geosynchronous": [
+        "nasa_glenn_ballistics"
+      ],
+      "launch_windows": [
+        "nasa_solar_system"
+      ],
+      "solar11": [
+        "nasa_solar_cycle"
+      ],
+      "hale22": [
+        "nasa_solar_cycle"
+      ],
+      "solarrot": [
+        "nasa_solar_cycle"
+      ],
+      "seasons": [
+        "nasa_solar_system"
+      ],
+      "ecc": [
+        "nasa_milankovitch"
+      ],
+      "obl": [
+        "nasa_milankovitch"
+      ],
+      "prec": [
+        "nasa_milankovitch"
+      ],
+      "lunar": [
+        "nasa_eclipse"
+      ],
+      "meteor": [
+        "nasa_solar_system"
+      ],
+      "geomag": [
+        "nasa_solar_system"
+      ],
+      "leo": [
+        "nasa_glenn_ballistics"
+      ],
+      "geo": [
+        "nasa_glenn_ballistics"
+      ],
+      "launchwindow": [
+        "nasa_solar_system"
+      ]
+    },
+    "missions": {
+      "dart": [
+        "nasa_dart"
+      ],
+      "europa_clipper": [
+        "nasa_europa_clipper"
+      ],
+      "psyche": [
+        "nasa_psyche"
+      ],
+      "lucy": [
+        "nasa_lucy"
+      ],
+      "parker": [
+        "nasa_parker"
+      ],
+      "juno": [
+        "nasa_juno"
+      ],
+      "jwst": [
+        "nasa_webb"
+      ],
+      "perseverance": [
+        "nasa_perseverance"
+      ],
+      "voyager": [
+        "nasa_voyager"
+      ],
+      "artemis": [
+        "nasa_artemis"
+      ],
+      "clipper": [
+        "nasa_europa_clipper"
+      ]
+    },
+    "craft": {
+      "orion": [
+        "nasa_artemis"
+      ],
+      "jwst": [
+        "nasa_webb"
+      ],
+      "goes": [
+        "noaa_goes"
+      ],
+      "landsat": [
+        "usgs_landsat"
+      ],
+      "iss": [
+        "nasa_iss"
+      ],
+      "europa_clipper": [
+        "nasa_europa_clipper"
+      ],
+      "parker": [
+        "nasa_parker"
+      ],
+      "voyager": [
+        "nasa_voyager"
+      ],
+      "clipper": [
+        "nasa_europa_clipper"
+      ]
+    },
+    "launch_sites": {
+      "ksc": [
+        "nasa_launch_sites"
+      ],
+      "ccsfs": [
+        "nasa_launch_sites"
+      ],
+      "vandenberg": [
+        "nasa_launch_sites"
+      ],
+      "wallops": [
+        "nasa_launch_sites"
+      ],
+      "kourou": [
+        "nasa_launch_sites"
+      ],
+      "tanegashima": [
+        "nasa_launch_sites"
+      ],
+      "sriharikota": [
+        "nasa_launch_sites"
+      ],
+      "baikonur": [
+        "nasa_launch_sites"
+      ]
+    },
+    "inner_worlds": {
+      "bepicolombo": [
+        "esa_bepicolombo"
+      ],
+      "messenger": [
+        "nasa_messenger"
+      ],
+      "mariner10": [
+        "nasa_mariner10"
+      ],
+      "davinci": [
+        "nasa_davinci"
+      ],
+      "veritas": [
+        "nasa_veritas"
+      ],
+      "envision": [
+        "esa_envision"
+      ],
+      "parker": [
+        "nasa_parker"
+      ],
+      "solarorbiter": [
+        "esa_solar_orbiter"
+      ]
+    },
+    "forces": {
+      "gravity": [
+        "nasa_glenn_ballistics"
+      ],
+      "tides": [
+        "nasa_glenn_ballistics"
+      ],
+      "rotation": [
+        "nasa_glenn_ballistics"
+      ],
+      "drag": [
+        "nasa_glenn_drag"
+      ],
+      "radiation_pressure": [
+        "nasa_solar_system"
+      ],
+      "impact_momentum": [
+        "nasa_glenn_ballistics"
+      ],
+      "tidal": [
+        "nasa_glenn_ballistics"
+      ],
+      "radiation": [
+        "nasa_solar_system"
+      ],
+      "impact": [
+        "nasa_glenn_ballistics"
+      ],
+      "solarwind": [
+        "nasa_solar_cycle"
+      ],
+      "debris": [
+        "nasa_orbital_debris"
+      ]
+    },
+    "rescue": {
+      "earth_beacon": [
+        "nasa_sar",
+        "cospas_sarsat"
+      ],
+      "ocean_epirb": [
+        "nasa_sar",
+        "cospas_sarsat"
+      ],
+      "orbital_safehaven": [
+        "nasa_iss",
+        "pfl_internal_models"
+      ],
+      "lunar_rover": [
+        "nasa_artemis",
+        "pfl_internal_models"
+      ],
+      "mars_field": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "debris_collision": [
+        "nasa_orbital_debris",
+        "pfl_internal_models"
+      ]
+    },
+    "colonization": {
+      "moon_south": [
+        "nasa_artemis",
+        "pfl_internal_models"
+      ],
+      "mars_midlat": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "ceres": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "orbital": [
+        "nasa_iss",
+        "pfl_internal_models"
+      ]
+    },
+    "frontier": {
+      "rotgrav": [
+        "nasa_glenn_ballistics",
+        "pfl_internal_models"
+      ],
+      "magshield": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "wormhole": [
+        "morris_thorne_1988",
+        "pfl_internal_models"
+      ],
+      "warp": [
+        "alcubierre_1994",
+        "pfl_internal_models"
+      ],
+      "qteleport": [
+        "bennett_teleportation_1993",
+        "pfl_internal_models"
+      ],
+      "replicator": [
+        "pfl_internal_models"
+      ],
+      "inertial": [
+        "nasa_glenn_ballistics",
+        "pfl_internal_models"
+      ],
+      "forcefield": [
+        "pfl_internal_models"
+      ],
+      "timedilation": [
+        "pfl_internal_models"
+      ]
+    },
+    "live": {
+      "space_weather": [
+        "noaa_swpc"
+      ],
+      "near_earth_objects": [
+        "jpl_cneos"
+      ],
+      "orbital_debris": [
+        "nasa_orbital_debris"
+      ]
+    },
+    "gameplay": {
+      "characters": [
+        "pfl_internal_models"
+      ],
+      "story_campaign": [
+        "pfl_internal_models"
+      ],
+      "versus_mode": [
+        "pfl_internal_models"
+      ],
+      "minigames": [
+        "pfl_internal_models"
+      ],
+      "tasks": [
+        "pfl_internal_models"
+      ],
+      "mission_control": [
+        "pfl_internal_models"
+      ]
+    },
+    "catalog": {
+      "*": [
+        "nasa_solar_system"
+      ],
+      "bennu": [
+        "nasa_bennu"
+      ],
+      "apophis": [
+        "nasa_apophis"
+      ],
+      "halley": [
+        "nasa_halley"
+      ],
+      "encke": [
+        "nasa_encke"
+      ],
+      "iss": [
+        "nasa_iss"
+      ],
+      "hubble": [
+        "nasa_hubble"
+      ],
+      "jwst": [
+        "nasa_webb"
+      ],
+      "voyager1": [
+        "nasa_voyager"
+      ],
+      "debris": [
+        "nasa_orbital_debris"
+      ]
+    },
+    "characters": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "minigames": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "modes": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "tasks": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "controls": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "story_campaign": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "versus_mode": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "mission_control": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "colonization_actions": {
+      "*": [
+        "pfl_internal_models"
+      ]
+    },
+    "scenarios": {
+      "*": [
+        "pfl_internal_models"
+      ],
+      "solar_superstorm": [
+        "nasa_solar_cycle",
+        "noaa_swpc",
+        "pfl_internal_models"
+      ],
+      "asteroid_impact": [
+        "jpl_cneos",
+        "nasa_dart",
+        "pfl_internal_models"
+      ],
+      "comet_train": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "tidal_encounter": [
+        "nasa_glenn_ballistics",
+        "pfl_internal_models"
+      ],
+      "dynamo_transition": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "rotational_breakup": [
+        "nasa_glenn_ballistics",
+        "pfl_internal_models"
+      ],
+      "orbital_debris": [
+        "nasa_orbital_debris",
+        "pfl_internal_models"
+      ],
+      "dynamo_recovery": [
+        "pfl_internal_models"
+      ],
+      "atmosphere_recovery": [
+        "pfl_internal_models"
+      ],
+      "tectonic_renewal": [
+        "usgs_planetary_mapping",
+        "pfl_internal_models"
+      ],
+      "deflection": [
+        "nasa_dart",
+        "pfl_internal_models"
+      ],
+      "debris_cleanup": [
+        "nasa_orbital_debris",
+        "pfl_internal_models"
+      ],
+      "supercontinent": [
+        "nature_supercontinent",
+        "pfl_internal_models"
+      ],
+      "ocean_cycle": [
+        "nasa_solar_system",
+        "pfl_internal_models"
+      ],
+      "eclipse_mode": [
+        "nasa_eclipse",
+        "pfl_internal_models"
+      ]
+    },
+    "integrations": {
+      "cesium": [
+        "cesiumjs_docs"
+      ],
+      "blockade": [
+        "blockade_skybox"
+      ],
+      "google_oauth": [
+        "google_oauth_docs"
+      ],
+      "github_oauth": [
+        "github_oauth_docs"
+      ],
+      "noaa": [
+        "noaa_swpc"
+      ],
+      "cneos": [
+        "jpl_cneos"
+      ]
+    }
+  }
+}

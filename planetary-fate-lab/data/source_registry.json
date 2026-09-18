@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-09-18",
+  "policy": {
+    "primarySourcesPreferred": true,
+    "showEvidenceClass": true,
+    "showRetrievedDate": true,
+    "distinguishExternalFactsFromInternalModels": true,
+    "crossPlatformFiles": [
+      "Content/Data/source_registry.json",
+      "WebApp/data/source_registry.json"
+    ],
+    "citationDisplay": "Title · Organization · evidence class · URL · retrieved date"
+  },
+  "sources": [
+    {
+      "id": "nasa_solar_system",
+      "title": "NASA Solar System Exploration",
+      "organization": "NASA",
+      "type": "reference",
+      "url": "https://science.nasa.gov/solar-system/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "planet facts",
+        "small bodies",
+        "missions"
+      ],
+      "licenseNote": "NASA media/use guidance applies; verify third-party credits on individual assets.",
+      "retrievedAt": "2026-09-18",
+      "notes": ""
+    },
+    {
+      "id": "nasa_blue_marble",
+      "title": "Blue Marble: Next Generation Base Map",
+      "organization": "NASA Earth Observatory",
+      "type": "imagery",
+      "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+      "evidence": "OBSERVATION-DERIVED",
+      "covers": [
+        "Earth texture",
+        "global land/ocean visualization"
+      ],
+      "licenseNote": "NASA imagery; preserve attribution and any embedded third-party credits.",
+      "retrievedAt": "2026-09-18",
+      "notes": ""
+    },
+    {
+      "id": "usgs_planetary_mapping",
+      "title": "Planetary Geologic Mapping",
+      "organization": "U.S. Geological Survey Astrogeology Science Center",
+      "type": "mapping",
+      "url": "https://www.usgs.gov/special-topics/planetary-geologic-mapping",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "planetary maps",
+        "geology",
+        "cartography"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "usgs_planetary_maps",
+      "title": "Astrogeology Science Center Maps",
+      "organization": "U.S. Geological Survey",
+      "type": "mapping",
+      "url": "https://www.usgs.gov/centers/astrogeology-science-center/maps",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Ceres",
+        "Pluto",
+        "planetary map products"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_solar_cycle",
+      "title": "NASA/NOAA Solar Cycle Reference",
+      "organization": "NASA / NOAA",
+      "type": "science reference",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasa-noaa-sun-reaches-maximum-phase-in-11-year-solar-cycle/",
+      "evidence": "OBSERVED",
+      "covers": [
+        "11-year solar activity cycle",
+        "solar maximum",
+        "magnetic reversal"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_milankovitch",
+      "title": "Milankovitch Orbital Cycles",
+      "organization": "NASA",
+      "type": "science reference",
+      "url": "https://science.nasa.gov/science-research/earth-science/milankovitch-orbital-cycles-and-their-role-in-earths-climate/",
+      "evidence": "SUPPORTED",
+      "covers": [
+        "eccentricity",
+        "obliquity",
+        "precession"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_eclipse",
+      "title": "NASA Eclipse FAQ / Saros",
+      "organization": "NASA",
+      "type": "science reference",
+      "url": "https://science.nasa.gov/eclipses/faq/",
+      "evidence": "OBSERVED",
+      "covers": [
+        "Saros",
+        "eclipse recurrence",
+        "lunar geometry"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nature_supercontinent",
+      "title": "Supercontinent cycle review",
+      "organization": "Nature Reviews Earth & Environment",
+      "type": "peer-reviewed review",
+      "url": "https://www.nature.com/articles/s43017-021-00160-0",
+      "evidence": "PEER-REVIEWED",
+      "covers": [
+        "supercontinent cycle",
+        "tectonics",
+        "mantle convection"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_dart",
+      "title": "Double Asteroid Redirection Test (DART)",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/dart/",
+      "evidence": "DEMONSTRATED",
+      "covers": [
+        "DART",
+        "kinetic impact",
+        "planetary defense"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_europa_clipper",
+      "title": "Europa Clipper",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/europa-clipper/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Europa Clipper",
+        "Europa",
+        "habitability",
+        "radiation design"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_psyche",
+      "title": "Psyche",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/psyche/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Psyche",
+        "metal-rich asteroid",
+        "solar electric propulsion"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_lucy",
+      "title": "Lucy",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/lucy/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Lucy",
+        "Jupiter Trojan asteroids",
+        "gravity assists"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_parker",
+      "title": "Parker Solar Probe",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/parker-solar-probe/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Parker Solar Probe",
+        "corona",
+        "solar wind",
+        "thermal shielding"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_juno",
+      "title": "Juno",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/juno/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Juno",
+        "Jupiter",
+        "magnetosphere",
+        "gravity science"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_webb",
+      "title": "James Webb Space Telescope",
+      "organization": "NASA / ESA / CSA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/webb/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "JWST",
+        "Sun-Earth L2",
+        "infrared astronomy"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_perseverance",
+      "title": "Mars 2020 Perseverance",
+      "organization": "NASA / JPL",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Perseverance",
+        "Mars",
+        "Jezero",
+        "sample caching"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_voyager",
+      "title": "Voyager",
+      "organization": "NASA / JPL",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/voyager/",
+      "evidence": "ACTIVE/HISTORICAL MISSION",
+      "covers": [
+        "Voyager 1",
+        "Voyager 2",
+        "outer planets",
+        "interstellar mission"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_artemis",
+      "title": "Artemis",
+      "organization": "NASA + partners",
+      "type": "program",
+      "url": "https://www.nasa.gov/humans-in-space/artemis/",
+      "evidence": "ACTIVE PROGRAM",
+      "covers": [
+        "Artemis",
+        "Orion",
+        "SLS",
+        "Moon-to-Mars",
+        "crewed lunar operations"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_launch_sites",
+      "title": "Launch Services Program Launch Sites",
+      "organization": "NASA",
+      "type": "operations reference",
+      "url": "https://www.nasa.gov/kennedy/launch-services-program/launch-services-program-launch-sites/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Kennedy",
+        "Vandenberg",
+        "Wallops",
+        "launch geography"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "noaa_swpc",
+      "title": "Space Weather Prediction Center",
+      "organization": "NOAA",
+      "type": "live data",
+      "url": "https://www.swpc.noaa.gov/",
+      "evidence": "LIVE OPERATIONAL DATA",
+      "covers": [
+        "space weather",
+        "Kp index",
+        "solar activity"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "jpl_cneos",
+      "title": "Center for Near Earth Object Studies",
+      "organization": "NASA/JPL",
+      "type": "live data",
+      "url": "https://cneos.jpl.nasa.gov/",
+      "evidence": "LIVE/CURATED DATA",
+      "covers": [
+        "NEOs",
+        "close approaches",
+        "impact risk"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_orbital_debris",
+      "title": "Orbital Debris Program Office",
+      "organization": "NASA",
+      "type": "operations reference",
+      "url": "https://orbitaldebris.jsc.nasa.gov/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "orbital debris",
+        "collision risk",
+        "debris environment"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_sar",
+      "title": "NASA Search and Rescue",
+      "organization": "NASA",
+      "type": "operations reference",
+      "url": "https://www.nasa.gov/search-and-rescue/",
+      "evidence": "OPERATIONAL SYSTEM",
+      "covers": [
+        "Search and Rescue",
+        "406 MHz beacons",
+        "MEOSAR"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "cospas_sarsat",
+      "title": "International Cospas-Sarsat Programme",
+      "organization": "Cospas-Sarsat",
+      "type": "operations reference",
+      "url": "https://www.cospas-sarsat.int/",
+      "evidence": "OPERATIONAL SYSTEM",
+      "covers": [
+        "406 MHz distress beacons",
+        "satellite-aided search and rescue"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_glenn_drag",
+      "title": "Drag Equation",
+      "organization": "NASA Glenn Research Center",
+      "type": "physics reference",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-equation/",
+      "evidence": "STANDARD PHYSICS",
+      "covers": [
+        "aerodynamic drag",
+        "dynamic pressure"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_glenn_ballistics",
+      "title": "Ballistic Flight Equations",
+      "organization": "NASA Glenn Research Center",
+      "type": "physics reference",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ballistic-flight-equations/",
+      "evidence": "STANDARD PHYSICS",
+      "covers": [
+        "Newtonian motion",
+        "gravity",
+        "ballistic flight"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "esa_bepicolombo",
+      "title": "BepiColombo",
+      "organization": "ESA / JAXA",
+      "type": "mission",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "BepiColombo",
+        "Mercury",
+        "electric propulsion",
+        "gravity assists"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_messenger",
+      "title": "MESSENGER",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/messenger/",
+      "evidence": "HISTORICAL MISSION",
+      "covers": [
+        "Mercury",
+        "MESSENGER",
+        "mapping",
+        "magnetometry"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_mariner10",
+      "title": "Mariner 10",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/mariner-10/",
+      "evidence": "HISTORICAL MISSION",
+      "covers": [
+        "Mercury",
+        "Venus",
+        "first planetary gravity assist"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_davinci",
+      "title": "DAVINCI",
+      "organization": "NASA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/davinci/",
+      "evidence": "FUTURE MISSION",
+      "covers": [
+        "Venus",
+        "descent probe",
+        "atmospheric chemistry"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_veritas",
+      "title": "VERITAS",
+      "organization": "NASA / JPL",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/veritas/",
+      "evidence": "FUTURE MISSION",
+      "covers": [
+        "Venus",
+        "radar",
+        "topography"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "esa_envision",
+      "title": "Envision",
+      "organization": "ESA + NASA",
+      "type": "mission",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Envision/",
+      "evidence": "FUTURE MISSION",
+      "covers": [
+        "Venus",
+        "radar",
+        "spectroscopy",
+        "aerobraking"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "esa_solar_orbiter",
+      "title": "Solar Orbiter",
+      "organization": "ESA / NASA",
+      "type": "mission",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Solar_Orbiter",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Sun",
+        "heliophysics",
+        "solar poles",
+        "solar wind"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "noaa_goes",
+      "title": "GOES Satellite System",
+      "organization": "NOAA / NASA",
+      "type": "mission/program",
+      "url": "https://www.noaa.gov/satellites/goes-r-series",
+      "evidence": "OPERATIONAL",
+      "covers": [
+        "GOES",
+        "weather satellites",
+        "geostationary observations"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "usgs_landsat",
+      "title": "Landsat Missions",
+      "organization": "USGS / NASA",
+      "type": "mission/program",
+      "url": "https://www.usgs.gov/landsat-missions",
+      "evidence": "OPERATIONAL",
+      "covers": [
+        "Landsat",
+        "Earth observation",
+        "land imaging"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_iss",
+      "title": "International Space Station",
+      "organization": "NASA + international partners",
+      "type": "program",
+      "url": "https://www.nasa.gov/international-space-station/",
+      "evidence": "OPERATIONAL",
+      "covers": [
+        "ISS",
+        "LEO",
+        "crewed research",
+        "rendezvous"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "morris_thorne_1988",
+      "title": "Wormholes in spacetime and their use for interstellar travel",
+      "organization": "American Journal of Physics",
+      "type": "peer-reviewed paper",
+      "url": "https://doi.org/10.1119/1.15620",
+      "evidence": "SPECULATIVE THEORY",
+      "covers": [
+        "traversable wormholes",
+        "exotic stress-energy"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "alcubierre_1994",
+      "title": "The warp drive: hyper-fast travel within general relativity",
+      "organization": "Classical and Quantum Gravity",
+      "type": "peer-reviewed paper",
+      "url": "https://doi.org/10.1088/0264-9381/11/5/001",
+      "evidence": "SPECULATIVE THEORY",
+      "covers": [
+        "warp metric",
+        "spacetime deformation"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "bennett_teleportation_1993",
+      "title": "Teleporting an unknown quantum state via dual classical and EPR channels",
+      "organization": "Physical Review Letters",
+      "type": "peer-reviewed paper",
+      "url": "https://doi.org/10.1103/PhysRevLett.70.1895",
+      "evidence": "OBSERVED PHYSICS / ORIGINAL PROPOSAL",
+      "covers": [
+        "quantum teleportation",
+        "entanglement",
+        "classical communication"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_media_guidelines",
+      "title": "NASA Images and Media Usage Guidelines",
+      "organization": "NASA",
+      "type": "usage policy",
+      "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "evidence": "POLICY",
+      "covers": [
+        "NASA imagery attribution",
+        "media use"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "pfl_internal_models",
+      "title": "Planetary Fate Lab Internal Simulation Models",
+      "organization": "Planetary Fate Lab",
+      "type": "internal model documentation",
+      "url": "./docs/methodology.html",
+      "evidence": "MODELED / EDUCATIONAL",
+      "covers": [
+        "scenario deltas",
+        "colonization simulation",
+        "versus scoring",
+        "fictional characters",
+        "gameplay mechanics"
+      ],
+      "notes": "Internal game logic is not an external scientific source; it must be labeled modeled, fictional, or educational as applicable.",
+      "retrievedAt": "2026-09-18",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_hubble",
+      "title": "Hubble Space Telescope",
+      "organization": "NASA / ESA",
+      "type": "mission",
+      "url": "https://science.nasa.gov/mission/hubble/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Hubble",
+        "space telescope",
+        "LEO observatory"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_bennu",
+      "title": "101955 Bennu",
+      "organization": "NASA",
+      "type": "small-body reference",
+      "url": "https://science.nasa.gov/solar-system/asteroids/101955-bennu/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Bennu",
+        "OSIRIS-REx",
+        "near-Earth asteroid"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_apophis",
+      "title": "99942 Apophis",
+      "organization": "NASA",
+      "type": "small-body reference",
+      "url": "https://science.nasa.gov/solar-system/asteroids/apophis/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Apophis",
+        "near-Earth asteroid",
+        "2029 close approach"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_halley",
+      "title": "1P/Halley",
+      "organization": "NASA",
+      "type": "comet reference",
+      "url": "https://science.nasa.gov/solar-system/comets/1p-halley/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Halley",
+        "periodic comet"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "nasa_encke",
+      "title": "2P/Encke",
+      "organization": "NASA",
+      "type": "comet reference",
+      "url": "https://science.nasa.gov/solar-system/comets/2p-encke/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Encke",
+        "periodic comet",
+        "Taurid complex"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "cesiumjs_docs",
+      "title": "CesiumJS Documentation",
+      "organization": "Cesium",
+      "type": "software/integration",
+      "url": "https://cesium.com/platform/cesiumjs/",
+      "evidence": "PLATFORM DOCUMENTATION",
+      "covers": [
+        "3D globe",
+        "terrain",
+        "imagery",
+        "3D Tiles",
+        "CZML"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "blockade_skybox",
+      "title": "Skybox AI / Blockade Labs",
+      "organization": "Blockade Labs",
+      "type": "software/integration",
+      "url": "https://skybox.blockadelabs.com/",
+      "evidence": "GENERATIVE PROVIDER",
+      "covers": [
+        "AI skyboxes",
+        "360 environments"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "github_oauth_docs",
+      "title": "Authorizing OAuth apps",
+      "organization": "GitHub",
+      "type": "identity documentation",
+      "url": "https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps",
+      "evidence": "PLATFORM DOCUMENTATION",
+      "covers": [
+        "GitHub OAuth"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    },
+    {
+      "id": "google_oauth_docs",
+      "title": "Google OAuth 2.0 for Web Server Applications",
+      "organization": "Google",
+      "type": "identity documentation",
+      "url": "https://developers.google.com/identity/protocols/oauth2/web-server",
+      "evidence": "PLATFORM DOCUMENTATION",
+      "covers": [
+        "Google OAuth",
+        "OpenID Connect",
+        "email/profile identity"
+      ],
+      "retrievedAt": "2026-09-18",
+      "notes": "",
+      "licenseNote": "See source/publisher terms and asset-level credits."
+    }
+  ]
+}
