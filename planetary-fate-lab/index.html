@@ -5,20 +5,23 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#06101b">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://services.swpc.noaa.gov https://ssd-api.jpl.nasa.gov; img-src 'self' data: blob: https://assets.science.nasa.gov https://space.jpl.nasa.gov; style-src 'self' 'unsafe-inline'; script-src 'self'; worker-src 'self' blob:; font-src 'self' data:; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://services.swpc.noaa.gov https://ssd-api.jpl.nasa.gov https://cesium.com https://elevation3d.arcgis.com https://server.arcgisonline.com https://tile.openstreetmap.org; img-src 'self' data: blob: https://assets.science.nasa.gov https://space.jpl.nasa.gov https://cesium.com https://server.arcgisonline.com https://tile.openstreetmap.org; style-src 'self' 'unsafe-inline' https://cesium.com; script-src 'self' https://cesium.com; worker-src 'self' blob: https://cesium.com; font-src 'self' data: https://cesium.com; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="mobile-web-app-capable" content="yes">
 <link rel="manifest" href="./manifest.webmanifest">
-<title>Planetary Fate Lab — Next Gen v6.5</title>
+<title>Planetary Fate Lab — Next Gen v6.9</title>
 <link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.145/Build/Cesium/Widgets/widgets.css">
+<link rel="stylesheet" href="./earth3d-v69.css">
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.145/Build/Cesium/Cesium.js" defer></script>
 </head>
 <body>
-<header><div><div class="ey">Planetary Fate Lab</div><h1>Solar System Edition · Civilization & Exploration v6.7</h1></div><div class="row"><span id="net" class="badge">WEB</span><button id="modesBtn">Modes</button><button id="tasksBtn">Tasks <span id="taskCount" class="miniBadge">0</span></button><button id="controlsBtn">Controls</button><button id="tourBtn">Tutorial</button><button id="sourcesBtn">Sources</button><button id="install" class="pri">Install</button><button id="profile">Profile</button></div></header>
+<header><div><div class="ey">Planetary Fate Lab</div><h1>Solar System Edition · Civilization & Exploration v6.9</h1></div><div class="row"><span id="net" class="badge">WEB</span><button id="modesBtn">Modes</button><button id="tasksBtn">Tasks <span id="taskCount" class="miniBadge">0</span></button><button id="controlsBtn">Controls</button><button id="tourBtn">Tutorial</button><button id="sourcesBtn">Sources</button><button id="install" class="pri">Install</button><button id="profile">Profile</button></div></header>
 <main class="wrap"><section id="modeStrip" class="modeStrip"><div><div class="ey">Experience mode</div><h3 id="modeTitle">Solo Expedition</h3><div id="modeObjective" class="modeObjective"></div><div id="modeExtra"></div></div><div class="row"><span id="modeBadge" class="badge">SOLO</span><button id="modeAction" class="pri">Continue</button></div></section>
 <section class="grid" id="explore">
 <div class="card">
 <div class="row" style="justify-content:space-between"><div><div class="ey">Interactive world</div><h2 id="title">Earth</h2><p id="summary" class="muted"></p></div><span id="truth" class="badge good">CURATED</span></div>
 <div class="cameraBar" id="cameraBar" style="margin:10px 0"><button data-view="skybox">Skybox</button><button data-view="free" class="active">Free Explorer</button><button data-view="first">First Person</button><button data-view="third">Third Person</button><button data-view="action">Action Director</button><label class="toggle"><input id="autoRotate" type="checkbox" checked> Auto rotate</label></div>
-<div id="stage" class="stage sky-auto"><div class="stars"></div><div class="spaceGlow"></div><div id="eventFx" class="eventFx"></div><div id="planetRig" class="planetRig"><div id="rings" class="rings"></div><div id="planet" class="planet earth"><canvas id="globeCanvas" class="globeCanvas" width="320" height="320" aria-label="Planet globe renderer"></canvas><canvas id="cloudCanvas" class="cloudCanvas" width="320" height="320" aria-hidden="true"></canvas><div id="textureLayer" class="textureLayer"></div></div><div class="atmo"></div></div><div class="viewHUD"><div id="viewHint" class="hint">Drag the planet to rotate it. Pinch/scroll changes zoom in Free Explorer.</div><span id="viewBadge" class="badge">FREE EXPLORER</span></div></div>
+<div id="stage" class="stage sky-auto"><div class="stars"></div><div class="spaceGlow"></div><div id="eventFx" class="eventFx"></div><div id="cesiumEarth" class="cesiumEarth" aria-label="Interactive WGS84 Earth globe"></div><div id="earthEngineStatus" class="earthEngineStatus" hidden></div><div id="planetRig" class="planetRig"><div id="rings" class="rings"></div><div id="planet" class="planet earth"><canvas id="globeCanvas" class="globeCanvas" width="320" height="320" aria-label="Planet globe renderer"></canvas><canvas id="cloudCanvas" class="cloudCanvas" width="320" height="320" aria-hidden="true"></canvas><div id="textureLayer" class="textureLayer"></div></div><div class="atmo"></div></div><div class="viewHUD"><div id="viewHint" class="hint">Drag the planet to rotate it. Pinch/scroll changes zoom in Free Explorer.</div><span id="viewBadge" class="badge">FREE EXPLORER</span></div></div>
 <p id="caption" class="muted">Stable system · choose a scenario.</p>
 </div>
 <aside><div class="card"><h3>World selector</h3><select id="body"></select><div id="facts" class="facts"></div><button id="book" style="width:100%;margin-top:8px">Open Space Book</button></div><div class="card"><h3>System telemetry</h3><div id="meters" class="meters"></div></div></aside>
@@ -50,4 +53,5 @@
 <dialog id="tour" class="tour"><div class="tourTop"><div class="ey">Interactive walkthrough</div><h2 id="tourTitle">Welcome</h2><div id="tourDots" class="tourDots"></div></div><div class="tourBody"><div id="tourBody"></div><div class="row" style="justify-content:space-between;margin-top:14px"><button id="tourSkip">Skip</button><div class="row"><button id="tourPrev">Back</button><button id="tourNext" class="pri">Next</button></div></div></div></dialog>
 <script src="./config.js"></script>
 <script src="./app.js" defer></script>
+<script src="./earth3d-v69.js" defer></script>
 </body></html>
