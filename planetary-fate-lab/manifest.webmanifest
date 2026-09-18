@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Planetary Fate Lab — Solar System Edition",
   "short_name": "Fate Lab",
-  "description": "Interactive planetary science with solo, story, sandbox, academy, defense, multiplayer/co-op, director and seasonal modes.",
+  "description": "Interactive planetary science with cycles, real missions, solo/story/sandbox/academy/defense, multiplayer/co-op, Restorers vs Disruptors, director, seasonal events and educational mini-games.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -30,19 +30,24 @@
   ],
   "shortcuts": [
     {
-      "name": "Play Modes",
-      "short_name": "Modes",
-      "url": "./#explore"
-    },
-    {
       "name": "Scenarios",
       "short_name": "Scenarios",
       "url": "./#scenarios"
     },
     {
-      "name": "Forces Lab",
-      "short_name": "Lab",
-      "url": "./#lab"
+      "name": "Cycles",
+      "short_name": "Cycles",
+      "url": "./#cyclesSec"
+    },
+    {
+      "name": "Missions",
+      "short_name": "Missions",
+      "url": "./#missionsSec"
+    },
+    {
+      "name": "Mini-games",
+      "short_name": "Bonus",
+      "url": "./#bonusSec"
     }
   ]
 }
