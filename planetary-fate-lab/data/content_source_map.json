@@ -601,6 +601,14 @@
       "cneos": [
         "jpl_cneos"
       ]
+    },
+    "renderers": {
+      "earth": [
+        "cesiumjs_docs",
+        "esri_world_imagery",
+        "esri_world_elevation",
+        "nasa_blue_marble"
+      ]
     }
   }
 }
