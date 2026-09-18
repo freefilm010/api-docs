@@ -1,0 +1,11 @@
+/* v6.9 true geospatial Earth */
+.cesiumEarth{position:absolute;inset:0;z-index:1;display:none;background:#000;overflow:hidden;border-radius:14px}
+.stage.earth3d .cesiumEarth{display:block}
+.stage.earth3d .planetRig{display:none!important}
+.stage.earth3d .stars,.stage.earth3d .spaceGlow{opacity:.12}
+.cesiumEarth .cesium-viewer,.cesiumEarth .cesium-viewer-cesiumWidgetContainer,.cesiumEarth .cesium-widget,.cesiumEarth canvas{width:100%!important;height:100%!important}
+.cesiumEarth .cesium-viewer-toolbar{display:none!important}
+.cesiumEarth .cesium-viewer-bottom{display:block!important;z-index:9}
+.earthEngineStatus{position:absolute;top:10px;left:10px;z-index:7;padding:6px 8px;border-radius:8px;border:1px solid #31536c;background:#02070dcc;color:#cae7fa;font-size:.68rem;max-width:min(76%,520px)}
+.stage.earth3d .viewHUD{z-index:8}.stage.earth3d .eventFx{z-index:6}
+.planet{transform:scaleY(var(--shapeY,1));transform-origin:center}
