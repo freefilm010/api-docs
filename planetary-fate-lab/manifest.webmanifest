@@ -1,0 +1,21 @@
+{
+  "id":"./",
+  "name":"Planetary Fate Lab — Solar System Edition",
+  "short_name":"Fate Lab",
+  "description":"Interactive planetary science, disasters, recovery, forces and live space data.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"any",
+  "background_color":"#03070d",
+  "theme_color":"#06101b",
+  "categories":["education","games","science"],
+  "icons":[
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ],
+  "shortcuts":[
+    {"name":"Scenarios","short_name":"Scenarios","url":"./#scenarios"},
+    {"name":"Forces Lab","short_name":"Forces","url":"./#lab"}
+  ]
+}
