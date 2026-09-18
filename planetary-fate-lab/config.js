@@ -5,6 +5,6 @@ window.PFL_CONFIG = {
   allowDirectPublicFeeds: true,
   oauthEnabled: true,
   cesiumVersion: "1.145",
-  appVersion: "6.7.0-web",
+  appVersion: "6.9.0-web",
   buildChannel: "stable"
 };
