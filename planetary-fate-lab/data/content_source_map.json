@@ -21,16 +21,20 @@
       ],
       "jupiter": [
         "nasa_solar_system",
-        "nasa_juno"
+        "nasa_juno",
+        "nasa_jupiter_moons_2026"
       ],
       "saturn": [
-        "nasa_solar_system"
+        "nasa_solar_system",
+        "nasa_saturn_moons_2026"
       ],
       "uranus": [
-        "nasa_solar_system"
+        "nasa_solar_system",
+        "nasa_uranus_moons_2026"
       ],
       "neptune": [
-        "nasa_solar_system"
+        "nasa_solar_system",
+        "nasa_neptune_moons"
       ],
       "ceres": [
         "nasa_solar_system",
@@ -44,7 +48,8 @@
         "nasa_solar_system"
       ],
       "makemake": [
-        "nasa_solar_system"
+        "nasa_solar_system",
+        "nasa_makemake_moon"
       ],
       "eris": [
         "nasa_solar_system"
@@ -196,7 +201,8 @@
         "nasa_parker"
       ],
       "juno": [
-        "nasa_juno"
+        "nasa_juno",
+        "jpl_juno_current"
       ],
       "jwst": [
         "nasa_webb"
@@ -208,7 +214,8 @@
         "nasa_voyager"
       ],
       "artemis": [
-        "nasa_artemis"
+        "nasa_artemis",
+        "nasa_artemis2_2026"
       ],
       "clipper": [
         "nasa_europa_clipper"
@@ -245,28 +252,43 @@
     },
     "launch_sites": {
       "ksc": [
-        "nasa_launch_sites"
+        "nasa_ksc_launch_viewing",
+        "nasa_centers_access",
+        "nasa_media_guidelines"
       ],
       "ccsfs": [
-        "nasa_launch_sites"
+        "sld45_faq",
+        "sld45_photo_policy",
+        "uscode_18_795",
+        "uscode_18_797"
       ],
       "vandenberg": [
-        "nasa_launch_sites"
+        "vandenberg_tours",
+        "vandenberg_photo_policy",
+        "uscode_18_795",
+        "uscode_18_797"
       ],
       "wallops": [
-        "nasa_launch_sites"
+        "nasa_wallops_visit",
+        "nasa_media_guidelines"
       ],
       "kourou": [
-        "nasa_launch_sites"
+        "cnes_csg_visit",
+        "cnes_csg_security",
+        "cnes_csg_media"
       ],
       "tanegashima": [
-        "nasa_launch_sites"
+        "jaxa_tanegashima_viewing",
+        "jaxa_site_policy"
       ],
       "sriharikota": [
-        "nasa_launch_sites"
+        "isro_visitors",
+        "isro_launch_view_gallery",
+        "isro_copyright"
       ],
       "baikonur": [
-        "nasa_launch_sites"
+        "kaz_baikonur_legal_visit",
+        "kaz_baikonur_tourism_2026"
       ]
     },
     "inner_worlds": {
@@ -608,6 +630,151 @@
         "esri_world_imagery",
         "esri_world_elevation",
         "nasa_blue_marble"
+      ]
+    },
+    "facility_compliance": {
+      "ksc": [
+        "nasa_ksc_launch_viewing",
+        "nasa_centers_access",
+        "nasa_media_guidelines"
+      ],
+      "ccsfs": [
+        "sld45_faq",
+        "sld45_photo_policy",
+        "uscode_18_795",
+        "uscode_18_797"
+      ],
+      "vandenberg": [
+        "vandenberg_tours",
+        "vandenberg_photo_policy",
+        "uscode_18_795",
+        "uscode_18_797"
+      ],
+      "wallops": [
+        "nasa_wallops_visit",
+        "nasa_media_guidelines"
+      ],
+      "kourou": [
+        "cnes_csg_visit",
+        "cnes_csg_security",
+        "cnes_csg_media"
+      ],
+      "tanegashima": [
+        "jaxa_tanegashima_viewing",
+        "jaxa_site_policy"
+      ],
+      "sriharikota": [
+        "isro_visitors",
+        "isro_launch_view_gallery",
+        "isro_copyright"
+      ],
+      "baikonur": [
+        "kaz_baikonur_legal_visit",
+        "kaz_baikonur_tourism_2026"
+      ]
+    },
+    "entity_compliance": {
+      "nasa": [
+        "nasa_media_guidelines",
+        "nasa_centers_access"
+      ],
+      "ussf": [
+        "uscode_18_795",
+        "uscode_18_797",
+        "sld45_photo_policy",
+        "vandenberg_photo_policy"
+      ],
+      "cnes": [
+        "cnes_csg_visit",
+        "cnes_csg_security",
+        "cnes_csg_media"
+      ],
+      "esa": [
+        "esa_media_terms"
+      ],
+      "jaxa": [
+        "jaxa_site_policy",
+        "jaxa_tanegashima_viewing"
+      ],
+      "isro": [
+        "isro_copyright",
+        "isro_visitors",
+        "isro_launch_view_gallery"
+      ],
+      "kazcosmos": [
+        "kaz_baikonur_legal_visit",
+        "kaz_baikonur_tourism_2026"
+      ],
+      "roscosmos": [
+        "kaz_baikonur_tourism_2026"
+      ],
+      "noaa": [
+        "noaa_media_policy",
+        "noaa_swpc"
+      ],
+      "usgs": [
+        "usgs_copyright",
+        "usgs_planetary_mapping"
+      ],
+      "esri": [
+        "esri_attribution",
+        "esri_world_imagery",
+        "esri_world_elevation"
+      ],
+      "cesium": [
+        "cesiumjs_docs",
+        "cesium_ion_terms"
+      ],
+      "jpl": [
+        "nasa_solar_system",
+        "nasa_media_guidelines"
+      ],
+      "cospas_sarsat": [
+        "cospas_sarsat"
+      ],
+      "csa": [
+        "csa_terms"
+      ],
+      "jhuapl": [
+        "jhuapl_media"
+      ],
+      "swri": [
+        "swri_terms"
+      ],
+      "google": [
+        "google_oauth_docs",
+        "google_terms"
+      ],
+      "github": [
+        "github_oauth_docs",
+        "github_dev_agreement"
+      ],
+      "microsoft": [
+        "microsoft_user_read"
+      ],
+      "natural_earth": [
+        "natural_earth",
+        "natural_earth_terms"
+      ],
+      "blockade": [
+        "blockade_skybox",
+        "blockade_terms"
+      ],
+      "bis": [
+        "bis_ear_734"
+      ],
+      "uscode": [
+        "uscode_18_795",
+        "uscode_18_797"
+      ],
+      "scholarly_citation_only": [
+        "nature_supercontinent",
+        "morris_thorne_1988",
+        "alcubierre_1994",
+        "bennett_teleportation_1993"
+      ],
+      "internal": [
+        "pfl_internal_models"
       ]
     }
   }

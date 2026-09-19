@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 2,
+  "asOf": "2026-09-19",
+  "policy": {
+    "default": "PUBLIC_OFFICIAL_ONLY",
+    "rule": "Being publicly discoverable does not by itself make operational/security details appropriate to aggregate. Show only officially released visitor, mission, historical and educational information.",
+    "noInternalNavigation": true,
+    "noSecurityInfrastructure": true,
+    "noLiveProtectionPosture": true,
+    "noNonpublicTechnicalData": true,
+    "mapPrecision": "For restricted/strategic facilities, show only general facility location and officially designated public visitor/viewing points; never route users through restricted areas."
+  },
+  "sites": [
+    {
+      "id": "ksc",
+      "name": "Kennedy Space Center",
+      "location": "Florida, USA",
+      "operator": "NASA",
+      "jurisdiction": "United States",
+      "securityClass": "FEDERAL_CONTROLLED",
+      "publicAccess": "Public visitation is through Kennedy Space Center Visitor Complex and designated public launch-viewing offerings; operational NASA areas require authorization/sponsorship.",
+      "mapPolicy": "General KSC location, Visitor Complex, and officially published public viewing information only. Do not provide restricted-area routing, gate procedures, access-control layouts, or security overlays.",
+      "photographyPolicy": "Use public visitor-area rules and NASA media guidance. On-site professional/commercial filming or access to operational areas requires applicable NASA/site authorization.",
+      "strength": "Crewed/heavy-lift and eastward missions",
+      "educational": "Earth rotation assist, launch azimuth, public range-safety concepts",
+      "officialVisitorUrl": "https://www.nasa.gov/kennedy/see-a-launch-up-close/",
+      "officialPolicyUrl": "https://www.nasa.gov/centers-and-facilities/",
+      "sourceIds": [
+        "nasa_ksc_launch_viewing",
+        "nasa_centers_access",
+        "nasa_media_guidelines"
+      ],
+      "allowedPublicInfo": [
+        "official mission history",
+        "public visitor information",
+        "official public launch-viewing information",
+        "officially released imagery and facts"
+      ],
+      "excludedInfoClasses": [
+        "restricted-area routing",
+        "access-control procedures",
+        "security system locations",
+        "live security posture",
+        "nonpublic operational schedules",
+        "export-controlled or controlled technical data"
+      ]
+    },
+    {
+      "id": "ccsfs",
+      "name": "Cape Canaveral Space Force Station",
+      "location": "Florida, USA",
+      "operator": "U.S. Space Force — Space Launch Delta 45",
+      "jurisdiction": "United States",
+      "securityClass": "DEFENSE_RESTRICTED",
+      "publicAccess": "Restricted-access military installation; not generally open to the public. Use only current official public-affairs/visitor guidance.",
+      "mapPolicy": "General facility marker and separately identified officially public historical/visitor resources only. Do not provide internal navigation, pad-to-pad routing, gate/checkpoint detail, or security-feature mapping.",
+      "photographyPolicy": "Photography and publication involving the installation are controlled by Space Launch Delta 45 policy and applicable federal law; use only officially released imagery or content specifically authorized for public release.",
+      "strength": "Eastern Range launch operations supporting national-security, civil and commercial missions",
+      "educational": "Launch-site geography and publicly explained orbital-inclination concepts",
+      "officialVisitorUrl": "https://www.patrick.spaceforce.mil/Resources/Frequently-Asked-Questions/",
+      "officialPolicyUrl": "https://www.patrick.spaceforce.mil/News/Photos/Space-Launch-Delta-45-Photo-Policy/",
+      "sourceIds": [
+        "sld45_faq",
+        "sld45_photo_policy",
+        "uscode_18_795",
+        "uscode_18_797"
+      ],
+      "allowedPublicInfo": [
+        "official public-affairs releases",
+        "official launch announcements",
+        "official historical material cleared for public release",
+        "general facility identification"
+      ],
+      "excludedInfoClasses": [
+        "internal routing",
+        "access points/checkpoint detail",
+        "security measures or sensor locations",
+        "restricted/controlled-area detail",
+        "live force-protection posture",
+        "nonpublic mission details",
+        "unapproved photography or derived facility mapping"
+      ]
+    },
+    {
+      "id": "vandenberg",
+      "name": "Vandenberg Space Force Base",
+      "location": "California, USA",
+      "operator": "U.S. Space Force — Space Launch Delta 30",
+      "jurisdiction": "United States",
+      "securityClass": "DEFENSE_RESTRICTED",
+      "publicAccess": "General-public installation tours are not currently offered according to the official tour page; use current official public-affairs and public heritage/viewing information only.",
+      "mapPolicy": "General base marker and officially public heritage/viewing resources only. Do not provide internal navigation, range-control routes, restricted launch-complex routing, or security overlays.",
+      "photographyPolicy": "On-base photography/publication is controlled by Vandenberg/SLD 30 policy; restricted or controlled areas require authorization. Use officially released imagery unless specific permission applies.",
+      "strength": "West Coast launches, including polar and sun-synchronous trajectories",
+      "educational": "Why west-coast geography supports public discussion of polar/sun-synchronous mission geometry",
+      "officialVisitorUrl": "https://www.vandenberg.spaceforce.mil/Contact-Us/Tours/",
+      "officialPolicyUrl": "https://www.vandenberg.spaceforce.mil/Portals/18/Tab%201.%20VSFB%20Photo%20Policy%20-%20Signed.pdf",
+      "sourceIds": [
+        "vandenberg_tours",
+        "vandenberg_photo_policy",
+        "uscode_18_795",
+        "uscode_18_797"
+      ],
+      "allowedPublicInfo": [
+        "official public-affairs releases",
+        "public launch notices",
+        "officially released photography",
+        "general public mission history"
+      ],
+      "excludedInfoClasses": [
+        "internal base navigation",
+        "restricted launch-complex detail",
+        "range/security-control layouts",
+        "security measures",
+        "live protection posture",
+        "nonpublic mission or payload information"
+      ]
+    },
+    {
+      "id": "wallops",
+      "name": "Wallops Flight Facility",
+      "location": "Virginia, USA",
+      "operator": "NASA",
+      "jurisdiction": "United States",
+      "securityClass": "FEDERAL_CONTROLLED",
+      "publicAccess": "The Wallops Visitor Center is the public-facing facility; NASA states it is the only Wallops facility open to the public. Qualifying facility tours require preregistration.",
+      "mapPolicy": "Route only to the official Visitor Center/public launch-viewing area. Do not route users to the main base or island gate or map nonpublic working areas.",
+      "photographyPolicy": "Follow NASA/Visitor Center rules and use officially released media for operational areas.",
+      "strength": "Sounding rockets, suborbital research, selected orbital launches and research aviation",
+      "educational": "Sounding rockets, coastal launch operations and public range-safety concepts",
+      "officialVisitorUrl": "https://www.nasa.gov/wallops/visitor-center/plan-your-visit/",
+      "officialPolicyUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "sourceIds": [
+        "nasa_wallops_visit",
+        "nasa_media_guidelines"
+      ],
+      "allowedPublicInfo": [
+        "Visitor Center directions",
+        "official public launch viewing",
+        "official mission/history facts",
+        "officially released media"
+      ],
+      "excludedInfoClasses": [
+        "routing to nonpublic gates/working areas",
+        "security procedures",
+        "internal operational layouts",
+        "nonpublic telemetry or range-control data"
+      ]
+    },
+    {
+      "id": "kourou",
+      "name": "Guiana Space Centre (Centre Spatial Guyanais)",
+      "location": "French Guiana, France",
+      "operator": "CNES (Europe’s Spaceport; used with ESA and launch partners)",
+      "jurisdiction": "France / French Guiana",
+      "securityClass": "STRATEGIC_RESTRICTED",
+      "publicAccess": "Controlled industrial/strategic site. Official guided visits and public launch-viewing arrangements are available subject to operational and safety restrictions.",
+      "mapPolicy": "General spaceport location plus CNES-designated public visitor/viewing information only. Do not map internal security systems, restricted routes, or operational protection zones.",
+      "photographyPolicy": "CNES states that restrictions apply to aerial, panoramic and high-vantage photography; press access requires accreditation. Use official media libraries and current visitor instructions.",
+      "strength": "Near-equatorial European spaceport",
+      "educational": "Latitude and Earth-rotation advantages for eastward launches",
+      "officialVisitorUrl": "https://centrespatialguyanais.cnes.fr/en/installations",
+      "officialPolicyUrl": "https://visite.centrespatialguyanais.cnes.fr/index.php/en/journaliste",
+      "sourceIds": [
+        "cnes_csg_visit",
+        "cnes_csg_security",
+        "cnes_csg_media"
+      ],
+      "allowedPublicInfo": [
+        "official tour information",
+        "official public viewing information",
+        "official mission/history facts",
+        "official media-library material subject to credits"
+      ],
+      "excludedInfoClasses": [
+        "internal security architecture",
+        "access-control layout",
+        "restricted routes",
+        "no-fly/protection operational detail beyond official public notice",
+        "live security posture",
+        "nonpublic technical/mission data"
+      ]
+    },
+    {
+      "id": "tanegashima",
+      "name": "Tanegashima Space Center",
+      "location": "Japan",
+      "operator": "JAXA",
+      "jurisdiction": "Japan",
+      "securityClass": "CONTROLLED_SPACEPORT",
+      "publicAccess": "Access is controlled. JAXA publishes guided-tour information and official launch-day observation guidance; keep-out rules apply during launch operations.",
+      "mapPolicy": "Use JAXA-published public visitor/observation information only. Do not generate routes through keep-out or operational areas.",
+      "photographyPolicy": "Use only locations/content allowed by current JAXA visitor rules; JAXA materials and logo are subject to JAXA site policy and attribution/permission requirements.",
+      "strength": "Japan’s primary large orbital launch center",
+      "educational": "Launch corridors, Pacific downrange geography and national launch infrastructure",
+      "officialVisitorUrl": "https://global.jaxa.jp/about/centers/tnsc/viewing_map.html",
+      "officialPolicyUrl": "https://global.jaxa.jp/policy.html",
+      "sourceIds": [
+        "jaxa_tanegashima_viewing",
+        "jaxa_site_policy"
+      ],
+      "allowedPublicInfo": [
+        "official center facts",
+        "official observation points",
+        "official mission releases",
+        "properly credited JAXA educational material"
+      ],
+      "excludedInfoClasses": [
+        "keep-out-area routing",
+        "nonpublic facility layouts",
+        "security/access procedures",
+        "nonpublic technical data",
+        "commercial reuse of JAXA media without permission"
+      ]
+    },
+    {
+      "id": "sriharikota",
+      "name": "Satish Dhawan Space Centre (SDSC SHAR)",
+      "location": "Sriharikota, Andhra Pradesh, India",
+      "operator": "ISRO / Department of Space",
+      "jurisdiction": "India",
+      "securityClass": "CONTROLLED_SPACEPORT",
+      "publicAccess": "ISRO identifies the launch-view gallery as the public launch-day access path, subject to registration and current mission rules.",
+      "mapPolicy": "Show general spaceport location and official public Launch View Gallery context only; no internal routing or security/access-detail overlays.",
+      "photographyPolicy": "Follow current official visitor/launch-view rules. Reuse of ISRO-owned website material must be accurate, non-misleading and source-credited; third-party material requires separate rights.",
+      "strength": "India’s principal orbital launch center",
+      "educational": "Site latitude, mission inclination and public launch-viewing education",
+      "officialVisitorUrl": "https://www.isro.gov.in/Launch%20View%20Gallery.html",
+      "officialPolicyUrl": "https://www.isro.gov.in/Copyright_Policy.html",
+      "sourceIds": [
+        "isro_visitors",
+        "isro_launch_view_gallery",
+        "isro_copyright"
+      ],
+      "allowedPublicInfo": [
+        "official visitor/gallery information",
+        "official mission releases",
+        "ISRO-owned material used consistently with copyright policy"
+      ],
+      "excludedInfoClasses": [
+        "internal routing",
+        "security/access controls",
+        "restricted operational areas",
+        "nonpublic mission/technical data",
+        "third-party copyrighted media without permission"
+      ]
+    },
+    {
+      "id": "baikonur",
+      "name": "Baikonur Cosmodrome",
+      "location": "Kyzylorda Region, Kazakhstan",
+      "operator": "Complex under Kazakhstan sovereignty; leased to the Russian Federation through 2050; operations include Russian and Kazakhstan entities",
+      "jurisdiction": "Kazakhstan",
+      "securityClass": "PERMIT_CONTROLLED_STRATEGIC",
+      "publicAccess": "Tourism is permit-controlled. Kazakhstan authorities direct visitors to lawful/authorized tourism channels and specifically warn against unauthorized entry.",
+      "mapPolicy": "General cosmodrome location and officially designated tourism/viewing information only. Do not provide unauthorized entry routes, internal facility navigation, security layouts, or abandoned-site infiltration guidance.",
+      "photographyPolicy": "Follow permit/tour-operator instructions and applicable Kazakhstan/Russian rules for the specific visit. Do not assume general photography permission.",
+      "strength": "Historic and active launch complex",
+      "educational": "Spaceflight history, international governance and public launch-tourism context",
+      "officialVisitorUrl": "https://www.gov.kz/memleket/entities/kazcosmos/press/article/details/173695",
+      "officialPolicyUrl": "https://www.gov.kz/memleket/entities/tourism/press/news/details/1237797",
+      "sourceIds": [
+        "kaz_baikonur_legal_visit",
+        "kaz_baikonur_tourism_2026"
+      ],
+      "allowedPublicInfo": [
+        "official tourism guidance",
+        "official history",
+        "official public launch information",
+        "authorized visitor information"
+      ],
+      "excludedInfoClasses": [
+        "unauthorized access routes",
+        "internal security layout",
+        "restricted facility navigation",
+        "nonpublic technical data",
+        "permit/access-control circumvention instructions"
+      ]
+    }
+  ]
+}

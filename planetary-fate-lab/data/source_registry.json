@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generated": "2026-09-18",
+  "generated": "2026-09-19",
   "policy": {
     "primarySourcesPreferred": true,
     "showEvidenceClass": true,
@@ -852,6 +852,608 @@
       "retrievedAt": "2026-09-18",
       "notes": "Used when service access is available; WGS84 ellipsoid is the fallback.",
       "licenseNote": "Subject to Esri service terms/access requirements."
+    },
+    {
+      "id": "uscode_18_795",
+      "title": "18 U.S.C. § 795 — Photographing and sketching defense installations",
+      "organization": "U.S. House Office of the Law Revision Counsel",
+      "type": "law",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title18-section795",
+      "evidence": "AUTHORITATIVE LAW",
+      "covers": [
+        "defense-installation photography",
+        "mapping restrictions"
+      ],
+      "licenseNote": "Official public source; current law/policy controls.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "uscode_18_797",
+      "title": "18 U.S.C. § 797 — Publication and sale of photographs of defense installations",
+      "organization": "U.S. House Office of the Law Revision Counsel",
+      "type": "law",
+      "url": "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&num=0&req=granuleid%3AUSC-prelim-title18-section797",
+      "evidence": "AUTHORITATIVE LAW",
+      "covers": [
+        "publication of protected defense-installation imagery/maps"
+      ],
+      "licenseNote": "Official public source; current law/policy controls.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "sld45_photo_policy",
+      "title": "Space Launch Delta 45 Photography Policy",
+      "organization": "U.S. Space Force — Space Launch Delta 45",
+      "type": "facility policy",
+      "url": "https://www.patrick.spaceforce.mil/News/Photos/Space-Launch-Delta-45-Photo-Policy/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Cape Canaveral Space Force Station",
+        "photography/publication"
+      ],
+      "licenseNote": "Official public source; current facility policy controls.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "sld45_faq",
+      "title": "Space Launch Delta 45 Frequently Asked Questions",
+      "organization": "U.S. Space Force — Space Launch Delta 45",
+      "type": "facility/public access",
+      "url": "https://www.patrick.spaceforce.mil/Resources/Frequently-Asked-Questions/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Cape Canaveral Space Force Station",
+        "public access"
+      ],
+      "licenseNote": "Official public source.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "vandenberg_photo_policy",
+      "title": "Vandenberg Space Force Base Photography Policy",
+      "organization": "U.S. Space Force — Space Launch Delta 30",
+      "type": "facility policy",
+      "url": "https://www.vandenberg.spaceforce.mil/Portals/18/Tab%201.%20VSFB%20Photo%20Policy%20-%20Signed.pdf",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Vandenberg Space Force Base",
+        "photography/publication"
+      ],
+      "licenseNote": "Official public source; current facility policy controls.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "vandenberg_tours",
+      "title": "Vandenberg Space Force Base Tours",
+      "organization": "U.S. Space Force — Space Launch Delta 30",
+      "type": "facility/public access",
+      "url": "https://www.vandenberg.spaceforce.mil/Contact-Us/Tours/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Vandenberg Space Force Base",
+        "public tours"
+      ],
+      "licenseNote": "Official public source.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_centers_access",
+      "title": "NASA Centers and Facilities — visitor/access guidance",
+      "organization": "NASA",
+      "type": "facility/public access",
+      "url": "https://www.nasa.gov/centers-and-facilities/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "NASA facility access",
+        "federal installations"
+      ],
+      "licenseNote": "NASA policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_ksc_launch_viewing",
+      "title": "See a Launch Up Close",
+      "organization": "NASA Kennedy Space Center",
+      "type": "visitor/public viewing",
+      "url": "https://www.nasa.gov/kennedy/see-a-launch-up-close/",
+      "evidence": "OFFICIAL",
+      "covers": [
+        "Kennedy Space Center",
+        "Cape Canaveral Space Force Station",
+        "public launch viewing"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_wallops_visit",
+      "title": "Plan Your Visit to Wallops",
+      "organization": "NASA Wallops Flight Facility",
+      "type": "visitor/public access",
+      "url": "https://www.nasa.gov/wallops/visitor-center/plan-your-visit/",
+      "evidence": "OFFICIAL",
+      "covers": [
+        "Wallops Visitor Center",
+        "public access",
+        "launch viewing"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "cnes_csg_visit",
+      "title": "Visit the installations — Guiana Space Centre",
+      "organization": "CNES",
+      "type": "visitor/public access",
+      "url": "https://centrespatialguyanais.cnes.fr/en/installations",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Guiana Space Centre",
+        "public visits"
+      ],
+      "licenseNote": "CNES policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "cnes_csg_security",
+      "title": "Safety and security — Guiana Space Centre",
+      "organization": "CNES",
+      "type": "facility security policy",
+      "url": "https://visite.centrespatialguyanais.cnes.fr/en/securite",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Guiana Space Centre",
+        "strategic facility status",
+        "visitor safety"
+      ],
+      "licenseNote": "CNES policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "cnes_csg_media",
+      "title": "Journalist / media access — Guiana Space Centre",
+      "organization": "CNES",
+      "type": "media/publication policy",
+      "url": "https://visite.centrespatialguyanais.cnes.fr/index.php/en/journaliste",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Guiana Space Centre",
+        "press accreditation",
+        "photography restrictions"
+      ],
+      "licenseNote": "CNES policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "jaxa_tanegashima_viewing",
+      "title": "Tanegashima Space Center Launching Observation Points Map",
+      "organization": "JAXA",
+      "type": "visitor/public access",
+      "url": "https://global.jaxa.jp/about/centers/tnsc/viewing_map.html",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Tanegashima Space Center",
+        "public launch observation"
+      ],
+      "licenseNote": "JAXA policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "jaxa_site_policy",
+      "title": "JAXA Site Policy",
+      "organization": "JAXA",
+      "type": "copyright/media policy",
+      "url": "https://global.jaxa.jp/policy.html",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "JAXA media",
+        "copyright",
+        "logo",
+        "commercial use"
+      ],
+      "licenseNote": "JAXA policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "isro_visitors",
+      "title": "ISRO Visitors",
+      "organization": "ISRO / Department of Space",
+      "type": "visitor/public access",
+      "url": "https://www.isro.gov.in/ISRO_EN/Visitors.html",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "ISRO public facilities",
+        "Satish Dhawan Space Centre"
+      ],
+      "licenseNote": "ISRO policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "isro_launch_view_gallery",
+      "title": "Launch View Gallery — SDSC SHAR",
+      "organization": "ISRO / Department of Space",
+      "type": "visitor/public access",
+      "url": "https://www.isro.gov.in/Launch%20View%20Gallery.html",
+      "evidence": "OFFICIAL",
+      "covers": [
+        "Satish Dhawan Space Centre",
+        "public launch viewing"
+      ],
+      "licenseNote": "ISRO policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "isro_copyright",
+      "title": "ISRO Copyright Policy",
+      "organization": "ISRO / Department of Space",
+      "type": "copyright/media policy",
+      "url": "https://www.isro.gov.in/Copyright_Policy.html",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "ISRO media",
+        "reproduction",
+        "attribution"
+      ],
+      "licenseNote": "ISRO policy applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "kaz_baikonur_legal_visit",
+      "title": "How to legally visit Baikonur Cosmodrome",
+      "organization": "Aerospace Committee, Government of Kazakhstan",
+      "type": "visitor/public access",
+      "url": "https://www.gov.kz/memleket/entities/kazcosmos/press/article/details/173695",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Baikonur Cosmodrome",
+        "legal tourism",
+        "permit access"
+      ],
+      "licenseNote": "Official government source.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "kaz_baikonur_tourism_2026",
+      "title": "Baikonur tourism development / permit update",
+      "organization": "Government of Kazakhstan",
+      "type": "visitor/public access",
+      "url": "https://www.gov.kz/memleket/entities/tourism/press/news/details/1237797?lang=ru",
+      "evidence": "OFFICIAL",
+      "covers": [
+        "Baikonur Cosmodrome",
+        "foreign tourist permits",
+        "tourism"
+      ],
+      "licenseNote": "Official government source.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "esa_media_terms",
+      "title": "Terms for ESA images and videos",
+      "organization": "European Space Agency",
+      "type": "copyright/media policy",
+      "url": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "ESA imagery",
+        "credit",
+        "commercial use",
+        "logo"
+      ],
+      "licenseNote": "ESA terms apply.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "noaa_media_policy",
+      "title": "NOAA digital media / copyright guidance",
+      "organization": "NOAA",
+      "type": "copyright/media policy",
+      "url": "https://sos.noaa.gov/copyright/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "NOAA media",
+        "public domain",
+        "attribution"
+      ],
+      "licenseNote": "NOAA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "usgs_copyright",
+      "title": "USGS Copyrights and Credits",
+      "organization": "U.S. Geological Survey",
+      "type": "copyright/media policy",
+      "url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "USGS data",
+        "public domain",
+        "third-party material",
+        "credit"
+      ],
+      "licenseNote": "USGS guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "cesium_ion_terms",
+      "title": "Cesium ion Terms of Service",
+      "organization": "Cesium",
+      "type": "service/license terms",
+      "url": "https://cesium.com/legal/terms-of-service/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "Cesium ion",
+        "hosted content",
+        "attribution"
+      ],
+      "licenseNote": "Cesium terms apply.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "esri_attribution",
+      "title": "Esri Data Attribution Requirements",
+      "organization": "Esri",
+      "type": "service/license terms",
+      "url": "https://developers.arcgis.com/documentation/glossary/data-attribution/",
+      "evidence": "OFFICIAL POLICY",
+      "covers": [
+        "ArcGIS basemaps",
+        "attribution",
+        "data providers"
+      ],
+      "licenseNote": "Esri terms apply.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "bis_ear_734",
+      "title": "EAR Part 734 — Scope / published information",
+      "organization": "U.S. Department of Commerce, Bureau of Industry and Security",
+      "type": "export-control regulation",
+      "url": "https://www.bis.gov/regulations/ear/734",
+      "evidence": "AUTHORITATIVE REGULATION",
+      "covers": [
+        "publicly available technology",
+        "export-control scope"
+      ],
+      "licenseNote": "Official regulatory source.",
+      "retrievedAt": "2026-09-19",
+      "notes": "Other agencies/laws may still apply."
+    },
+    {
+      "id": "csa_terms",
+      "title": "Canadian Space Agency — Terms / Permission to Reproduce",
+      "organization": "Canadian Space Agency",
+      "type": "official policy",
+      "url": "https://www.asc-csa.gc.ca/eng/terms.asp",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "media/use terms"
+      ],
+      "licenseNote": "CSA terms control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "jhuapl_media",
+      "title": "Johns Hopkins APL — Media / Image and Video Permission",
+      "organization": "Johns Hopkins University Applied Physics Laboratory",
+      "type": "official policy",
+      "url": "https://www.jhuapl.edu/news/media",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "media/use terms"
+      ],
+      "licenseNote": "APL permission/license rules control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "swri_terms",
+      "title": "Southwest Research Institute — Privacy Policy & Terms of Use",
+      "organization": "Southwest Research Institute",
+      "type": "official policy",
+      "url": "https://www.swri.org/privacy-policy-terms-of-use",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "media/use terms"
+      ],
+      "licenseNote": "SwRI terms control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "natural_earth_terms",
+      "title": "Natural Earth — Terms of Use",
+      "organization": "Natural Earth / NACIS",
+      "type": "official policy",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "cartographic reuse terms"
+      ],
+      "licenseNote": "Natural Earth data are public domain.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "blockade_terms",
+      "title": "Blockade Labs — Skybox AI Terms of Service",
+      "organization": "Blockade Labs",
+      "type": "official terms",
+      "url": "https://landing-dev.blockadelabs.com/tos/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "service/generated-asset terms"
+      ],
+      "licenseNote": "Current service/package terms control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "github_dev_agreement",
+      "title": "GitHub Registered Developer Agreement",
+      "organization": "GitHub",
+      "type": "official terms",
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-registered-developer-agreement",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "OAuth/API developer terms"
+      ],
+      "licenseNote": "GitHub terms control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "google_terms",
+      "title": "Google Terms of Service",
+      "organization": "Google",
+      "type": "official terms",
+      "url": "https://policies.google.com/terms",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "service/branding terms"
+      ],
+      "licenseNote": "Google/service-specific terms control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "microsoft_user_read",
+      "title": "Microsoft Graph — User.Read Permission",
+      "organization": "Microsoft",
+      "type": "official policy",
+      "url": "https://learn.microsoft.com/en-us/graph/permissions-reference#userread",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "identity/profile permission"
+      ],
+      "licenseNote": "Microsoft identity terms control.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_jupiter_moons_2026",
+      "title": "Jupiter Moons",
+      "organization": "NASA Science",
+      "type": "current planetary reference",
+      "url": "https://science.nasa.gov/jupiter/jupiter-moons/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Jupiter moon count"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_saturn_moons_2026",
+      "title": "Saturn Moons",
+      "organization": "NASA Science",
+      "type": "current planetary reference",
+      "url": "https://science.nasa.gov/saturn/moons/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Saturn moon count"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_uranus_moons_2026",
+      "title": "Uranus Moons",
+      "organization": "NASA Science",
+      "type": "current planetary reference",
+      "url": "https://science.nasa.gov/uranus/moons/facts/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Uranus moon count"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_neptune_moons",
+      "title": "Neptune Moons",
+      "organization": "NASA Science",
+      "type": "current planetary reference",
+      "url": "https://science.nasa.gov/neptune/moons/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Neptune moon count"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_makemake_moon",
+      "title": "Makemake",
+      "organization": "NASA Science",
+      "type": "current planetary reference",
+      "url": "https://science.nasa.gov/dwarf-planets/makemake/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Makemake moon count"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "nasa_artemis2_2026",
+      "title": "Artemis II",
+      "organization": "NASA",
+      "type": "mission record",
+      "url": "https://www.nasa.gov/mission/artemis-ii/",
+      "evidence": "AUTHORITATIVE",
+      "covers": [
+        "Artemis II",
+        "April 2026 crewed lunar flyby"
+      ],
+      "licenseNote": "NASA guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
+    },
+    {
+      "id": "jpl_juno_current",
+      "title": "Juno",
+      "organization": "NASA Jet Propulsion Laboratory",
+      "type": "mission status",
+      "url": "https://www.jpl.nasa.gov/missions/juno/",
+      "evidence": "ACTIVE MISSION",
+      "covers": [
+        "Juno",
+        "Jupiter"
+      ],
+      "licenseNote": "NASA/JPL guidance applies.",
+      "retrievedAt": "2026-09-19",
+      "notes": ""
     }
   ]
 }

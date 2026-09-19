@@ -1,0 +1,456 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-19",
+  "policy": {
+    "scope": "Official entities/data providers referenced by Planetary Fate Lab public content.",
+    "defaultRule": "Use official public releases, preserve attribution, do not imply endorsement, and honor asset-specific restrictions. If rights or disclosure status is unclear, link rather than mirror and mark unresolved.",
+    "securityRule": "Never ingest classified, CUI, SSI, export-controlled/nonpublic technical data, leaked internal documents, or operational security details merely because they are accessible somewhere online.",
+    "legalNote": "Compliance-engineering baseline, not a legal opinion. Jurisdiction- and asset-specific terms control."
+  },
+  "entities": [
+    {
+      "id": "nasa",
+      "name": "National Aeronautics and Space Administration (NASA)",
+      "kind": "U.S. civil space agency",
+      "usePolicy": "NASA-created media generally may be used for educational/informational simulations with NASA acknowledged; third-party credits remain controlling. NASA identifiers have separate restrictions and no endorsement may be implied.",
+      "securityPolicy": "Use only officially public NASA information. NASA centers are federal installations; app maps only public visitor information and official releases.",
+      "sourceIds": [
+        "nasa_media_guidelines",
+        "nasa_centers_access"
+      ]
+    },
+    {
+      "id": "ussf",
+      "name": "United States Space Force / Department of the Air Force",
+      "kind": "U.S. defense organization",
+      "usePolicy": "Use only official Public Affairs releases and material clearly released for public use; do not imply endorsement.",
+      "securityPolicy": "Defense-installation photography/mapping can be legally and locally restricted. The app excludes protected/restricted facility detail, internal routing, security measures and live protection posture.",
+      "sourceIds": [
+        "uscode_18_795",
+        "uscode_18_797",
+        "sld45_photo_policy",
+        "vandenberg_photo_policy"
+      ]
+    },
+    {
+      "id": "cnes",
+      "name": "Centre national d’études spatiales (CNES)",
+      "kind": "French space agency",
+      "usePolicy": "Use official public visitor/mission information and asset-level credits/terms.",
+      "securityPolicy": "The Guiana Space Centre is a strategic restricted site; only public tour/viewing information is surfaced.",
+      "sourceIds": [
+        "cnes_csg_visit",
+        "cnes_csg_security",
+        "cnes_csg_media"
+      ]
+    },
+    {
+      "id": "esa",
+      "name": "European Space Agency (ESA)",
+      "kind": "intergovernmental space agency",
+      "usePolicy": "ESA website images/videos may be used for educational/editorial/informational purposes under ESA terms with required credit; commercial use generally requires separate authorization; ESA logo requires prior written authorization.",
+      "securityPolicy": "Only officially released mission/facility material is used; third-party copyrights remain controlling.",
+      "sourceIds": [
+        "esa_media_terms"
+      ]
+    },
+    {
+      "id": "jaxa",
+      "name": "Japan Aerospace Exploration Agency (JAXA)",
+      "kind": "Japanese space agency",
+      "usePolicy": "JAXA permits specified press/scientific/educational/private uses under site policy with credits; business/commercial use and logo use require prior permission; third-party content requires separate rights.",
+      "securityPolicy": "Only official public visitor/mission information is used; TNSC keep-out rules are respected and not converted into internal navigation.",
+      "sourceIds": [
+        "jaxa_site_policy",
+        "jaxa_tanegashima_viewing"
+      ]
+    },
+    {
+      "id": "isro",
+      "name": "Indian Space Research Organisation (ISRO) / Department of Space",
+      "kind": "Indian space agency",
+      "usePolicy": "ISRO states its own site material may be reproduced free if accurate, non-derogatory, non-misleading and prominently sourced; third-party materials require separate authorization.",
+      "securityPolicy": "Only official public visitor/gallery and mission information is surfaced for SDSC SHAR; no internal navigation/security detail.",
+      "sourceIds": [
+        "isro_copyright",
+        "isro_visitors",
+        "isro_launch_view_gallery"
+      ]
+    },
+    {
+      "id": "kazcosmos",
+      "name": "Aerospace Committee of Kazakhstan / Government of Kazakhstan",
+      "kind": "national space/government authority",
+      "usePolicy": "Use official government releases for Baikonur governance/tourism facts; link to current permit/visit channels rather than reproducing access-control details.",
+      "securityPolicy": "Baikonur tourism is permit-controlled; app excludes unauthorized-entry guidance and internal security/facility navigation.",
+      "sourceIds": [
+        "kaz_baikonur_legal_visit",
+        "kaz_baikonur_tourism_2026"
+      ]
+    },
+    {
+      "id": "roscosmos",
+      "name": "Roscosmos State Corporation",
+      "kind": "Russian space operator",
+      "usePolicy": "No general asset-reuse license was verified in this audit. Use factual references and official links; do not mirror Roscosmos media unless asset-specific rights are established.",
+      "securityPolicy": "For Baikonur and other strategic facilities, show only information independently released by competent public authorities; no internal navigation or nonpublic technical detail.",
+      "sourceIds": [
+        "kaz_baikonur_tourism_2026"
+      ]
+    },
+    {
+      "id": "noaa",
+      "name": "National Oceanic and Atmospheric Administration (NOAA)",
+      "kind": "U.S. science/operational agency",
+      "usePolicy": "NOAA-created media is generally public domain; credit NOAA, preserve third-party restrictions, do not imply endorsement, and do not use NOAA seals/logos without permission.",
+      "securityPolicy": "Operational feeds are displayed as time-stamped public data, not as guarantees or official warnings.",
+      "sourceIds": [
+        "noaa_media_policy",
+        "noaa_swpc"
+      ]
+    },
+    {
+      "id": "usgs",
+      "name": "U.S. Geological Survey (USGS)",
+      "kind": "U.S. science/mapping agency",
+      "usePolicy": "USGS-authored data/information is generally U.S. public domain; credit requested. Third-party material and official identifiers/logos can have separate restrictions.",
+      "securityPolicy": "Use public science/cartographic products only.",
+      "sourceIds": [
+        "usgs_copyright",
+        "usgs_planetary_mapping"
+      ]
+    },
+    {
+      "id": "esri",
+      "name": "Esri / ArcGIS",
+      "kind": "commercial geospatial provider",
+      "usePolicy": "Applications using ArcGIS content/services must display required Esri and data-provider attribution and follow service terms. Do not strip provider credits or assume unrestricted tile caching.",
+      "securityPolicy": "Geospatial services are not used to add prohibited restricted-facility detail beyond the app disclosure policy.",
+      "sourceIds": [
+        "esri_attribution",
+        "esri_world_imagery",
+        "esri_world_elevation"
+      ]
+    },
+    {
+      "id": "cesium",
+      "name": "Cesium",
+      "kind": "geospatial software/provider",
+      "usePolicy": "CesiumJS is open-source under Apache 2.0; Cesium ion and third-party hosted content have separate terms and attribution requirements.",
+      "securityPolicy": "Geospatial capability is constrained by facility disclosure policy; no restricted-site internal-navigation layer is generated.",
+      "sourceIds": [
+        "cesiumjs_docs",
+        "cesium_ion_terms"
+      ]
+    },
+    {
+      "id": "jpl",
+      "name": "NASA Jet Propulsion Laboratory (JPL)",
+      "kind": "NASA federally funded research and development center managed by Caltech",
+      "usePolicy": "Use NASA/JPL official mission/data releases with exact credit lines where given; asset-specific third-party credits remain controlling.",
+      "securityPolicy": "Only public mission/science data are used.",
+      "sourceIds": [
+        "nasa_solar_system",
+        "nasa_media_guidelines"
+      ]
+    },
+    {
+      "id": "cospas_sarsat",
+      "name": "International Cospas-Sarsat Programme",
+      "kind": "international search-and-rescue satellite system",
+      "usePolicy": "Use official public educational/system information with attribution.",
+      "securityPolicy": "The simulation does not expose private distress-beacon identity/location records or operational responder data.",
+      "sourceIds": [
+        "cospas_sarsat"
+      ]
+    },
+    {
+      "id": "csa",
+      "name": "Canadian Space Agency (CSA)",
+      "kind": "Canadian federal space agency",
+      "usePolicy": "Use CSA materials only under applicable CSA/Government of Canada terms; educational/informational reuse requires source credit/no implied endorsement and commercial redistribution generally requires permission.",
+      "securityPolicy": "Use only officially released public mission and educational material.",
+      "sourceIds": [
+        "csa_terms"
+      ]
+    },
+    {
+      "id": "jhuapl",
+      "name": "Johns Hopkins University Applied Physics Laboratory (JHU/APL)",
+      "kind": "U.S. university affiliated research laboratory / mission partner",
+      "usePolicy": "Use NASA mission pages for facts by default. APL images/video are not mirrored unless permission or an applicable license is confirmed.",
+      "securityPolicy": "Do not ingest proprietary, controlled, classified, export-restricted, facility-security, or nonpublic program information.",
+      "sourceIds": [
+        "jhuapl_media"
+      ]
+    },
+    {
+      "id": "swri",
+      "name": "Southwest Research Institute (SwRI)",
+      "kind": "independent research and development organization / mission partner",
+      "usePolicy": "Use NASA mission pages for facts by default. SwRI site/media materials are copyrighted and not mirrored for commercial/public distribution without applicable permission.",
+      "securityPolicy": "Only public mission/science information is used; proprietary or nonpublic SwRI material is excluded.",
+      "sourceIds": [
+        "swri_terms"
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "kind": "identity/service provider",
+      "usePolicy": "Google account sign-in is used only under current Google OAuth/service terms; Google Maps imagery is not copied into the app and no endorsement is implied.",
+      "securityPolicy": "Identity integration requests only minimum profile/identity scopes; Gmail mailbox access is not requested for login.",
+      "sourceIds": [
+        "google_oauth_docs",
+        "google_terms"
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "kind": "source-hosting and optional identity provider",
+      "usePolicy": "Use GitHub under current platform/developer terms; protect trademarks and do not imply sponsorship. User-login permissions are minimized and repository access is not requested.",
+      "securityPolicy": "Repository/deployment credentials remain operator secrets and are never embedded in the public client.",
+      "sourceIds": [
+        "github_oauth_docs",
+        "github_dev_agreement"
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "kind": "optional identity provider",
+      "usePolicy": "Microsoft identity is used under current Microsoft identity-platform terms and delegated-permission model.",
+      "securityPolicy": "Ordinary login requests basic identity/profile access only; mail, calendar, files, directory-wide, or admin-restricted permissions are not requested.",
+      "sourceIds": [
+        "microsoft_user_read"
+      ]
+    },
+    {
+      "id": "natural_earth",
+      "name": "Natural Earth / NACIS",
+      "kind": "public-domain cartographic data source",
+      "usePolicy": "Natural Earth raster/vector data are public domain; provenance is retained even though attribution is not required by its terms.",
+      "securityPolicy": "Used only as low-detail fallback cartography and not to derive restricted-facility internal details.",
+      "sourceIds": [
+        "natural_earth",
+        "natural_earth_terms"
+      ]
+    },
+    {
+      "id": "blockade",
+      "name": "Blockade Labs / Skybox AI",
+      "kind": "optional third-party generative skybox provider",
+      "usePolicy": "API/service/generated-asset use is governed by current Blockade Labs terms and applicable package terms; no secret API key is embedded in clients.",
+      "securityPolicy": "The service is not used to generate or infer security-sensitive facility layouts or restricted operational details.",
+      "sourceIds": [
+        "blockade_skybox",
+        "blockade_terms"
+      ]
+    },
+    {
+      "id": "bis",
+      "name": "U.S. Department of Commerce — Bureau of Industry and Security (BIS)",
+      "kind": "U.S. export-control regulator",
+      "usePolicy": "EAR references are used as compliance context only, not as a license determination.",
+      "securityPolicy": "Public availability does not automatically establish unrestricted status under every regime; nonpublic/export-controlled technical data are excluded.",
+      "sourceIds": [
+        "bis_ear_734"
+      ]
+    },
+    {
+      "id": "uscode",
+      "name": "U.S. House Office of the Law Revision Counsel / United States Code",
+      "kind": "official federal statutory source",
+      "usePolicy": "Statutory text is cited as authoritative source material; Planetary Fate Lab does not provide a legal opinion.",
+      "securityPolicy": "18 U.S.C. §§ 795 and 797 are used as conservative constraints for protected defense-installation imagery/mapping and publication.",
+      "sourceIds": [
+        "uscode_18_795",
+        "uscode_18_797"
+      ]
+    },
+    {
+      "id": "scholarly_citation_only",
+      "name": "Third-party scholarly publishers and journals",
+      "kind": "citation-only research sources",
+      "usePolicy": "Planetary Fate Lab links/cites bibliographic sources and does not mirror full articles, figures, or paywalled media unless separately licensed.",
+      "securityPolicy": "Published scholarship does not override facility, export-control, privacy, classified/CUI, or other disclosure restrictions.",
+      "sourceIds": [
+        "nature_supercontinent",
+        "morris_thorne_1988",
+        "alcubierre_1994",
+        "bennett_teleportation_1993"
+      ]
+    },
+    {
+      "id": "internal",
+      "name": "Planetary Fate Lab internal models/content",
+      "kind": "internal application content",
+      "usePolicy": "Original application content; external-source claims must be separately sourced.",
+      "securityPolicy": "Internal simulations must not introduce restricted, nonpublic, personal, or operational-security data.",
+      "sourceIds": [
+        "pfl_internal_models"
+      ]
+    }
+  ],
+  "organizationCoverage": {
+    "Aerospace Committee, Government of Kazakhstan": [
+      "kazcosmos"
+    ],
+    "American Journal of Physics": [
+      "scholarly_citation_only"
+    ],
+    "Blockade Labs": [
+      "blockade"
+    ],
+    "CNES": [
+      "cnes"
+    ],
+    "Canadian Space Agency": [
+      "csa"
+    ],
+    "Cesium": [
+      "cesium"
+    ],
+    "Classical and Quantum Gravity": [
+      "scholarly_citation_only"
+    ],
+    "Cospas-Sarsat": [
+      "cospas_sarsat"
+    ],
+    "ESA + NASA": [
+      "esa",
+      "nasa"
+    ],
+    "ESA / JAXA": [
+      "esa",
+      "jaxa"
+    ],
+    "ESA / NASA": [
+      "esa",
+      "nasa"
+    ],
+    "Esri": [
+      "esri"
+    ],
+    "European Space Agency": [
+      "esa"
+    ],
+    "GitHub": [
+      "github"
+    ],
+    "Google": [
+      "google"
+    ],
+    "Government of Kazakhstan": [
+      "kazcosmos"
+    ],
+    "ISRO / Department of Space": [
+      "isro"
+    ],
+    "JAXA": [
+      "jaxa"
+    ],
+    "Johns Hopkins University Applied Physics Laboratory": [
+      "jhuapl"
+    ],
+    "Microsoft": [
+      "microsoft"
+    ],
+    "NASA": [
+      "nasa"
+    ],
+    "NASA + international partners": [
+      "nasa",
+      "esa",
+      "csa"
+    ],
+    "NASA + partners": [
+      "nasa"
+    ],
+    "NASA / ESA": [
+      "nasa",
+      "esa"
+    ],
+    "NASA / ESA / CSA": [
+      "nasa",
+      "esa",
+      "csa"
+    ],
+    "NASA / JPL": [
+      "nasa",
+      "jpl"
+    ],
+    "NASA / NOAA": [
+      "nasa",
+      "noaa"
+    ],
+    "NASA Earth Observatory": [
+      "nasa"
+    ],
+    "NASA Glenn Research Center": [
+      "nasa"
+    ],
+    "NASA Jet Propulsion Laboratory": [
+      "jpl",
+      "nasa"
+    ],
+    "NASA Kennedy Space Center": [
+      "nasa"
+    ],
+    "NASA Science": [
+      "nasa"
+    ],
+    "NASA Wallops Flight Facility": [
+      "nasa"
+    ],
+    "NASA/JPL": [
+      "nasa",
+      "jpl"
+    ],
+    "NOAA": [
+      "noaa"
+    ],
+    "NOAA / NASA": [
+      "noaa",
+      "nasa"
+    ],
+    "Natural Earth / NACIS": [
+      "natural_earth"
+    ],
+    "Nature Reviews Earth & Environment": [
+      "scholarly_citation_only"
+    ],
+    "Physical Review Letters": [
+      "scholarly_citation_only"
+    ],
+    "Planetary Fate Lab": [
+      "internal"
+    ],
+    "Southwest Research Institute": [
+      "swri"
+    ],
+    "U.S. Department of Commerce, Bureau of Industry and Security": [
+      "bis"
+    ],
+    "U.S. Geological Survey": [
+      "usgs"
+    ],
+    "U.S. Geological Survey Astrogeology Science Center": [
+      "usgs"
+    ],
+    "U.S. House Office of the Law Revision Counsel": [
+      "uscode"
+    ],
+    "U.S. Space Force — Space Launch Delta 30": [
+      "ussf"
+    ],
+    "U.S. Space Force — Space Launch Delta 45": [
+      "ussf"
+    ],
+    "USGS / NASA": [
+      "usgs",
+      "nasa"
+    ]
+  }
+}
