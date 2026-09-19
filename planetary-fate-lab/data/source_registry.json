@@ -1454,6 +1454,21 @@
       "licenseNote": "NASA/JPL guidance applies.",
       "retrievedAt": "2026-09-19",
       "notes": ""
+    },
+    {
+      "id": "natural_earth",
+      "title": "Natural Earth Public-Domain Map Data",
+      "organization": "Natural Earth / NACIS",
+      "type": "cartography",
+      "url": "https://www.naturalearthdata.com/",
+      "evidence": "CARTOGRAPHIC REFERENCE",
+      "covers": [
+        "Earth coastline fallback",
+        "global land polygons"
+      ],
+      "licenseNote": "Natural Earth raster and vector data are public domain per its Terms of Use.",
+      "retrievedAt": "2026-09-18",
+      "notes": "Used only as the packaged same-origin fallback when observation-derived Earth imagery is unavailable."
     }
   ]
 }
